@@ -1,0 +1,1269 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h3 a {
+  color: #333 !important ;
+}
+
+
+body {
+	font-family:"宋体";
+	font-size:12px
+}
+#doc {
+	width:1000px;
+	margin:auto
+}
+#doc #bd {
+	padding-bottom:10px
+}
+#main {
+	padding:10px 0;
+	float:left;
+	_margin-left:0
+}
+#left {
+	width:150px;
+	padding:10px 0;
+	margin-right:10px;
+	float:left
+}
+#right {
+	width:210px;
+	padding:15px 0;
+	float:right
+}
+.layout-lm #right {
+	display:none
+}
+.layout-mr #left {
+	display:none
+}
+.layout-m #right,.layout-m #left {
+	display:none
+}
+.layout-lmr #main {
+	width:620px
+}
+.layout-mr #main {
+	padding:10px 20px;
+	width:750px
+}
+.layout-lm #main {
+	width:830px
+}
+.layout-m #main {
+	padding:10px 20px;
+	width:960px
+}
+.layout-lmr {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/doc_bg_repeatY_1024_e0d6fd4.png) repeat-y left top #fff;
+	border-bottom:1px solid #c1ecf8
+}
+.layout-lm {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/doc_bg_repeatY_1024_e0d6fd4.png) repeat-y -1005px top #fff;
+	border-bottom:1px solid #c1ecf8
+}
+.layout-mr {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/doc_bg_repeatY_1024_e0d6fd4.png) repeat-y -2010px top #fff;
+	border-bottom:1px solid #c1ecf8
+}
+.layout-m {
+	background:#fff
+}
+a {
+	color:#2965b1;
+	outline:0;
+	text-decoration:none
+}
+dd {
+	margin:0;
+	padding:0
+}
+.section {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/line-3_2e4f6c0.png) repeat-x left bottom;
+	margin:0 1px 12px;
+	padding-bottom:12px
+}
+.section .hd,.left-mod .hd {
+	padding:0 10px;
+	line-height:22px;
+	margin-bottom:5px
+}
+.section .hd h2,.left-mod .hd h2 {
+	float:left;
+	font-size:14px;
+	font-weight:400
+}
+.section .hd a.more,.left-mod .hd a.more {
+	float:right
+}
+.section .bd,.left-mod .bd {
+	padding:0 10px
+}
+.section .ft {
+}
+.section .text-list-2 {
+	margin-left:5px
+}
+.section-tc .bd {
+	padding:0 0 10px;
+	text-align:center
+}
+.user-list {
+}
+.user-list li {
+	line-height:16px;
+	padding-bottom:10px;
+	word-wrap:break-word
+}
+.user-list li.more {
+	text-align:right;
+	padding-bottom:0
+}
+.user-list li .headbox {
+	float:left;
+	margin:0 10px 0 0
+}
+.user-list li .head50 {
+	padding:2px;
+	width:50px;
+	height:50px;
+	border:1px solid #ccc;
+	background:#fff;
+	border-radius:3px
+}
+.user-list li .head50 img {
+	width:50px;
+	height:50px
+}
+.user-list li .focus-btn {
+	margin-top:5px
+}
+.user-list li .text {
+	margin-left:66px;
+	line-height:20px
+}
+.user-list li .desc {
+	margin-left:66px;
+	color:#999
+}
+.user-list li a {
+	word-wrap:break-word
+}
+.leftLogo {
+	display:block;
+	height:60px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/search_13507b0.png) no-repeat 10px -56px
+}
+a:hover {
+	text-decoration:underline;
+	outline:0
+}
+input:focus,textarea:focus {
+	outline:0
+}
+textarea {
+	resize:none
+}
+strong {
+	font-weight:400
+}
+#foot {
+	width:1000px;
+	margin:25px auto 0;
+	padding-bottom:36px;
+	text-align:center;
+	line-height:18px
+}
+#foot a {
+}
+#foot .copyright {
+	font-family:Arial,Helvetica,sans-serif
+}
+.long-pages {
+	margin:25px 0;
+	text-align:right;
+	font-size:14px;
+	line-height:22px;
+	color:#666
+}
+.long-pages span,.long-pages strong,.long-pages a {
+	display:inline-block;
+	padding:0 8px;
+	background:#fff
+}
+.long-pages span {
+	border:solid 1px #eee;
+	color:#ccc
+}
+.atl-pages strong {
+	color:#fff;
+	background:#0b59b2;
+	border:solid 1px #fff
+}
+.long-pages a {
+	border:solid 1px #ccc;
+	color:#261cdc
+}
+.long-pages a:hover {
+	text-decoration:none;
+	background:#105cb6;
+	color:#fff
+}
+#doc .layout-m {
+	background:0 0;
+	overflow:hidden;
+	background-color:#fff
+}
+a {
+	color:#261cdc
+}
+em {
+	font-style:normal
+}
+#main {
+	width:618px;
+	zoom:1
+}
+.layout-lmr #main {
+	_width:618px
+}
+#right {
+	width:200px;
+	padding:91px 10px 0 0;
+	zoom:1
+}
+#doc .layout-lmr {
+	background-position:-1004px top;
+	border-bottom:0 none
+}
+#top_bg {
+	z-index:2;
+	_position:relative
+}
+.searchCon {
+	margin:0 auto;
+	overflow:hidden;
+	zoom:1;
+	width:624px;
+	padding:88px 0 120px
+}
+.searchCon h1,.searchMod li,.searchMod .searchMbd,.searchMbd .searchText,.searchMbd .sousuo,.souTianya .hotTag,.tagSort li a,.user-list li .enter a.guanzhu {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/search_bg_67c1e7f.gif) 0 0 no-repeat
+}
+.searchCon h1 {
+	width:224px;
+	height:59px;
+	margin:0 auto;
+	text-indent:-999em
+}
+.searchMod {
+	overflow:hidden;
+	width:610px;
+	zoom:1;
+	margin-top:45px
+}
+.searchCon .hotTag {
+	width:610px;
+	height:16px;
+	line-height:16px;
+	overflow:hidden
+}
+.searchCon .hotTagKey {
+	overflow:hidden;
+	padding-left:30px;
+	width:460px
+}
+.searchMod ul {
+	overflow:hidden;
+	padding-left:30px;
+	position:relative;
+	top:1px;
+	z-index:1;
+	left:0;
+	height:29px
+}
+.searchMod li {
+	width:68px;
+	height:29px;
+	text-align:center;
+	line-height:29px;
+	color:#2965b1;
+	float:left;
+	background-position:-123px -98px;
+	margin-right:-1px
+}
+.searchMod li a {
+	color:#2965B1;
+	text-decoration:none
+}
+.searchMod li.last {
+	background-position:-9999px -9999px
+}
+.searchMod li.hover {
+	background-position:0 -101px
+}
+.searchMod li.hover a {
+	color:#000
+}
+.searchMod .searchMbd {
+	background-position:0 -133px;
+	width:560px;
+	height:61px;
+	position:relative;
+	z-index:0;
+	padding:15px 0 0 50px
+}
+.searchMbd .searchText {
+	background-position:0 -61px;
+	width:398px;
+	height:26px;
+	border:0 none;
+	float:left;
+	padding:4px 0 4px 8px;
+	line-height:26px;
+	color:#999;
+	font-size:14px
+}
+.searchMbd .sousuo {
+	background-position:-406px -61px;
+	width:104px;
+	height:34px;
+	text-indent:-999em;
+	border:0 none;
+	float:left;
+	cursor:pointer
+}
+.hotTag em {
+	color:#666
+}
+.hotTag a {
+	color:#2965b1;
+	padding-right:12px
+}
+.searchTop {
+	height:70px;
+	padding:8px 0 4px;
+	zoom:1;
+	_margin-top:0;
+	_padding-top:18px;
+	_background-position:0 0
+}
+.souTianya {
+	margin:0 auto;
+	overflow:hidden;
+	padding-left:60px;
+	height:56px
+}
+.souTianya .searchMbd {
+	overflow:hidden;
+	zoom:1
+}
+.souTianya .hotTag {
+	display:block;
+	background-position:0 -287px;
+	padding:8px 0 0 34px;
+	zoom:1;
+	overflow:hidden
+}
+.searchBbs {
+	*position:relative
+}
+.searchBbs .souTianya {
+	*position:absolute;
+	width:780px;
+	overflow:visible!important
+}
+.selInputCnt {
+	float:left
+}
+.selInputCnt .selInput {
+	float:left;
+	cursor:pointer;
+	color:#999;
+	width:112px;
+	padding:4px;
+	margin:0 4px;
+	border:0;
+	height:26px;
+	line-height:26px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/search_13507b0.png) no-repeat scroll 0 0
+}
+.ui-schInput-layer {
+	border:1px solid #ccc;
+	background:#fff
+}
+.ui-schInput-box {
+	max-height:480px;
+	overflow-y:auto
+}
+.ui-schInput-item,.ui-schInput-empty {
+	padding:2px;
+	line-height:18px
+}
+.ui-schInput-box .active {
+	background:#36C;
+	color:#fff;
+	font-weight:700;
+	cursor:pointer
+}
+.selInput::-ms-clear {
+	display:none
+}
+.searchUser {
+	height:105px
+}
+.searchUser .souTianya {
+	height:110px
+}
+.matchType {
+	padding-top:5px
+}
+.matchType label {
+	padding-right:20px
+}
+.matchType input {
+	vertical-align:bottom;
+	margin-right:3px;
+	*vertical-align:middle
+}
+.matchOptions {
+}
+.matchOptions .matchItem {
+	display:none;
+	height:22px;
+	padding-top:10px
+}
+.matchOptions select {
+	height:22px;
+	border:1px solid #D5DADF;
+	width:80px
+}
+.matchOptions label {
+	position:relative;
+	margin-right:10px;
+	vertical-align:top;
+	top:4px
+}
+#sel-city {
+	display:none
+}
+.exFilter {
+	display:none
+}
+.exFilter {
+	margin-right:30px
+}
+.exFilter a {
+	padding-left:15px;
+	color:#2965b1;
+	text-decoration:none;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/search_13507b0.png) no-repeat 5px -187px
+}
+.exFilter a.active {
+	font-weight:700
+}
+.exFilter .hasLogo {
+	background-position:0 -126px
+}
+.exFilter .noLogo {
+	background-position:0 -156px
+}
+.popSeniorSearch {
+	width:320px;
+	height:170px
+}
+.popSeniorSearch .matchItem {
+	display:block!important
+}
+.popSeniorSearch label {
+	display:inline-block;
+	width:50px
+}
+.popSeniorSearch .txtInput {
+	width:170px;
+	border:1px solid #D5DADF;
+	height:22px;
+	margin-left:5px
+}
+.seniorParams {
+	display:none;
+	color:#767676;
+	line-height:19px;
+	padding-top:30px;
+	overflow:hidden
+}
+.tagSort {
+	overflow:hidden;
+	padding-top:9px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/line-1_6c8076a.png) repeat-x left top;
+	margin:0 1px
+}
+.tagSort li {
+	overflow:hidden;
+	margin-bottom:4px;
+	height:27px
+}
+.tagSort li.tiezi {
+	height:auto;
+	display:block
+}
+.tagSort li.tiezi a {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/ico_d3b0888.png) no-repeat 23px -241px;
+	font-size:14px;
+	padding-left:36px
+}
+.tagSort li a {
+	;
+	height:27px;
+	text-align:left;
+	padding-left:29px;
+	line-height:27px;
+	display:block;
+	background-position:-676px 4px;
+	font-size:14px;
+	color:#2965b1
+}
+.tagSort li a:hover,.tagSort li.hover a {
+	color:#fff;
+	text-decoration:none;
+	background-color:#3cb8ff
+}
+.tagSort li.tiezi a:hover {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/ico_d3b0888.png) no-repeat scroll 23px -241px transparent;
+	color:#2965B1
+}
+.tagSort li.tiezi .on a {
+	font-weight:700
+}
+.tagSort li.tiezi .on a:hover {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/ico_d3b0888.png) no-repeat scroll 23px -241px transparent
+}
+.tagSort li a.l2 {
+	background-position:-676px -27px
+}
+.tagSort li a.l3 {
+	background-position:-676px -56px
+}
+.tagSort li a.l4 {
+	background-position:-676px -91px
+}
+.tagSort li a.l5 {
+	background-position:-676px -130px
+}
+.tagSort li a.l6 {
+	background-position:-676px -170px
+}
+.tagSort li a.l7 {
+	background-position:-676px -207px
+}
+.tagSort li a.l1:hover,.tagSort li.hover a.l1 {
+	background-position:9px -332px
+}
+.tagSort li a.l2:hover,.tagSort li.hover a.l2 {
+	background-position:10px -378px
+}
+.tagSort li a.l3:hover,.tagSort li.hover a.l3 {
+	background-position:-280px -377px
+}
+.tagSort li a.l4:hover,.tagSort li.hover a.l4 {
+	background-position:-281px -332px
+}
+.tagSort li a.l5:hover,.tagSort li.hover a.l5 {
+	background-position:-560px -330px
+}
+.tagSort li a.l6:hover,.tagSort li.hover a.l6 {
+	background-position:-560px -378px
+}
+.tagSort li a.l7:hover,.tagSort li.hover a.l7 {
+	background-position:9px -419px
+}
+.section1 {
+	border-bottom:0 none;
+	background:0 0
+}
+.section1 .text-list-2 li {
+	line-height:28px
+}
+.section1 .text-list-2 li a {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/ico_d3b0888.png) no-repeat scroll 10px -248px transparent;
+	padding-left:23px
+}
+.searchRight .section .hd {
+	background:url(http://static.tianyaui.com/global/search/web/static/images/search_bg_repeatX_33d2401.gif) 0 -91px repeat-x;
+	height:29px;
+	line-height:29px
+}
+.searchRight .section .hd h2 {
+	font-weight:400
+}
+.f14 {
+	font-size:14px
+}
+.bold {
+	font-weight:700
+}
+.searchRight .section .bdTag,.searchRight .section .bd-hotSou {
+	padding-bottom:0
+}
+.searchRight .section .bdTag {
+	padding-bottom:6px;
+	overflow:hidden;
+	zoom:1
+}
+.searchRight .section .bdTag a {
+	padding:0 3px 2px 13px;
+	line-height:21px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/ico_d3b0888.png) no-repeat left -293px;
+	display:block;
+	width:170px;
+	height:21px;
+	overflow:hidden
+}
+.searchRight .section .bd-hotSou {
+	padding:10px 0;
+	border-bottom:1px solid #e3ebff
+}
+.searchRight .section .bd-bankuai {
+	padding:10px 0;
+	zoom:1
+}
+.hotSou {
+	overflow:hidden
+}
+.hotSou li {
+	overflow:hidden;
+	border-bottom:1px solid #f4f4f4;
+	line-height:25px;
+	height:25px
+}
+.hotSou li em {
+	color:#cbcbcb;
+	width:20px;
+	float:left;
+	text-align:left;
+	display:block;
+	padding:0 0 0 10px
+}
+.hotSou li a {
+	float:left
+}
+.bd-hotSou p {
+	overflow:hidden;
+	text-align:right;
+	margin-top:10px;
+	padding-right:8px
+}
+.searchListOne {
+	overflow:hidden
+}
+.searchListOne ul {
+	padding: 0;
+	height: auto;
+	overflow:hidden;
+	border-bottom:1px solid #f6f6f6;
+	zoom:1
+}
+.searchListOne li {overflow: hidden;
+height: auto;
+	zoom:1;
+	position:relative
+}
+.searchListOne li div {
+	overflow:hidden;
+	zoom:1
+}
+h1{padding-top: 20px;}
+.top{position: fixed;top:0;background-color: #fff;width:100%; height: 33px;line-height: 33px;z-index: 9;border-bottom: 1px solid #ccc;}
+h5{line-height: 20px !important;}
+.jdyss_f{text-align: center;}
+.jdyss_f .input{    width: 100%; margin-bottom: 5px; border: 1px solid #CCC; padding: 10px 0px 10px 5px;} 
+.searchListOne li img {
+	float:left;
+	margin-right:10px;
+	overflow:hidden
+}
+.wd48{width: 49%;float: left;}
+.downpage{display: none;border-left: 1px solid #fff;}
+.searchListOne li h3 {
+	margin-top: 0;
+	font-size:16px;
+	line-height:1.6;
+	margin-bottom:20px;height: auto;
+	font-weight:400;
+	overflow: hidden;
+}
+.searchListOne li h3 span{font-size: 12px}
+.button_mm{    padding: 10px 0px;
+    margin: 0px;
+
+    text-align: center;
+    background-color: #333;
+    color: #fff;}
+.searchListOne li h3 a {
+	text-decoration:none;
+}
+.searchListOne li .red {
+	color:#d00
+}
+.searchListOne li .source {
+	color:gray;
+	margin-top:4px
+}
+.searchListOne li .reply-btn {
+	position:absolute;
+	right:20px;
+	bottom:22px;
+	border:1px solid #e7e7e7;
+	color:#7e7e7e;
+	line-height:18px;
+	padding:1px 8px;
+	visibility:hidden
+}
+.searchListOne li .reply-btn:hover {
+	text-decoration:none;
+	color:#000
+}
+.searchListOne .source a {
+	text-decoration:underline;
+	color:gray;
+	padding-right:15px
+}
+.searchListOne .source span {
+	padding-right:15px
+}
+.weiList {
+	overflow:hidden;
+	padding:10px;
+	zoom:1;
+	background-color:#f9f9f9;
+	border:1px solid #e0e0e0;
+	margin-bottom:22px
+}
+.weiList ul {
+	overflow:hidden
+}
+.weiList li {
+	overflow:hidden;
+	float:left;
+	width:33%
+}
+.weiList img {
+	width:50px;
+	height:50px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	float:left
+}
+.weiList h3 {
+	margin-left:66px
+}
+.weiList h3 a {
+	color:#2965b1
+}
+.weiList p {
+	margin-left:66px;
+	padding-top:6px;
+	zoom:1;
+	color:#666
+}
+.weiMore {
+	overflow:hidden;
+	padding-top:4px;
+	text-align:right
+}
+.weiMore a {
+	color:#2965b1
+}
+.searchListReply {
+	overflow:hidden
+}
+.searchListReply ul {
+	overflow:hidden;
+	border-bottom:1px solid #f6f6f6;
+	zoom:1
+}
+.searchListReply li {
+	overflow:hidden;
+	line-height:21px;
+	padding:0 17px 24px 10px;
+	zoom:1;
+	position:relative
+}
+.searchListReply li .red {
+	color:#d00
+}
+.searchListReply li .source {
+	color:gray;
+	margin-bottom:6px
+}
+.searchListReply li .source a {
+	text-decoration:underline;
+	color:gray;
+	padding-right:15px
+}
+.searchListReply li .source span {
+	padding-right:15px
+}
+.searchListReply li .content {
+	overflow:hidden;
+	zoom:1;
+	font-size:14px;
+	line-height:24px
+}
+.searchListReply li .reply-btn {
+	position:absolute;
+	right:20px;
+	top:0;
+	border:1px solid #e7e7e7;
+	color:#7e7e7e;
+	line-height:18px;
+	padding:1px 8px;
+	visibility:hidden
+}
+.searchListReply li .reply-btn:hover {
+	text-decoration:none;
+	color:#000
+}
+.long-pages em {
+	text-align:left;
+	color:#b1b1b1;
+	float:left
+}
+.bbtom li {
+	border-bottom:1px solid #f4f4f4
+}
+.borderBtm {
+	text-decoration:underline
+}
+.searchListTwo li {
+	border-bottom:1px dashed #cdcdcd;
+	padding-bottom:14px;
+	margin:0 20px 12px 0
+}
+.weiboCon {
+	border-left:3px solid #e5e5e5;
+	overflow:hidden;
+	padding:4px 10px;
+	zoom:1
+}
+.weiboCon .weiAuthor {
+	color:gray;
+	text-decoration:underline
+}
+.weiboCon .weiboHot {
+	color:#b7b7b7
+}
+.weiboCon div {
+	padding:5px 0;
+	zoom:1;
+	font-size:14px
+}
+.user-list li .enter a.guanzhu {
+	background-position:-499px -100px;
+	width:56px;
+	height:20px;
+	text-indent:-999em
+}
+.searchListUser {
+	overflow:hidden;
+	padding:10px 20px 0 0;
+	border-top:1px solid #CDCDCD
+}
+.searchListUser ul {
+	overflow:hidden;
+	zoom:1;
+	border-bottom:1px solid #f6f6f6
+}
+.searchListUser li {
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+	border-bottom:1px dashed #d9d9d9;
+	padding-bottom:15px;
+	margin-bottom:15px
+}
+.searchListUser li img {
+	width:50px;
+	height:50px;
+	border:1px solid #ededed;
+	padding:3px;
+	zoom:1;
+	float:left
+}
+.searchListUser li p {
+	margin-left:68px;
+	overflow:hidden;
+	color:#767676;
+	line-height:19px;
+	zoom:1
+}
+.searchListUser li .red {
+	color:#d00
+}
+.searchListUser p a,.searchListUser p span {
+	padding-right:12px
+}
+.searchListUser p a span {
+	padding:0
+}
+.searchListUser li .gz {
+	position:absolute;
+	right:0;
+	top:0
+}
+.searchListUser .contTag a {
+	padding-right:5px
+}
+.kwcolor {
+	color:#D00
+}
+.searchListOne li div p {
+	overflow:hidden
+}
+.searchListTwo li div p {
+	overflow:hidden;
+	font-size:14px
+}
+.searchRight .user-list li {
+	padding-bottom:15px
+}
+.searchRight .user-list li .sum {
+	height:33px;
+	overflow:hidden
+}
+.searchListTwo li em {
+	color:#D00
+}
+.pinpaiContent {
+	overflow:hidden;
+	margin:0 auto 10px;
+	position:relative
+}
+.pinpaiContent .ppxx {
+	position:absolute;
+	right:10px;
+	top:6px;
+	font-size:12px;
+	text-decoration:underline;
+	color:gray
+}
+.pinpaiContent li {
+	line-height:21px;
+	overflow:hidden;
+	padding:0 17px 24px 10px
+}
+.pinpaiContent li h3 {
+	padding-right:50px;
+	height:22px;
+	overflow:hidden
+}
+.pinpaiContent li h3 a {
+	text-decoration:underline;
+	font-size:16px;
+	font-weight:400
+}
+.pinpaiContent li .source {
+	color:gray;
+	margin-top:4px
+}
+.pinpaiContent li .qiyeCont {
+	text-indent:-2em;
+	max-height:42px;
+	overflow:hidden
+}
+.pinpaiContent .source a {
+	color:gray;
+	padding-right:15px;
+	text-decoration:underline
+}
+.pinpaiContent .source span {
+	padding-right:15px
+}
+.pinpaiList {
+	overflow:hidden;
+	background-color:#f9f9f9
+}
+.wenxueContent {
+	overflow:hidden;
+	margin-bottom:10px;
+	background:#f9f9f9
+}
+.wenxueContent .wx-item {
+	line-height:21px;
+	overflow:hidden;
+	padding:0 17px 24px 10px
+}
+.wenxueContent .wx-item h3 {
+	font-size:16px;
+	font-weight:400;
+	height:24px;
+	line-height:24px;
+	margin-bottom:3px;
+	overflow:hidden
+}
+.wenxueContent .wx-item .detail {
+	width:593px;
+	height:100px;
+	overflow:hidden
+}
+.wenxueContent .detail .book-pic {
+	float:left;
+	display:inline;
+	width:75px;
+	height:100px;
+	overflow:hidden;
+	margin-right:8px
+}
+.wenxueContent .book-pic img {
+	display:block;
+	width:75px;
+	height:100px
+}
+.wenxueContent .detail .book-info {
+	float:left;
+	display:inline;
+	width:510px;
+	height:100px;
+	line-height:20px;
+	overflow:hidden
+}
+.wenxueContent .book-info .author {
+	color:gray
+}
+.wenxueContent .book-info .author a {
+	color:gray;
+	text-decoration:underline
+}
+.wenxueContent .book-info .summary {
+	color:gray;
+	word-wrap:break-word;
+	word-break:break-all
+}
+.wenxueContent .book-info .summary a {
+	color:#000
+}
+#app_list {
+	width:720px;
+	margin-left:60px
+}
+#app_list .app_info .app_avgScore {
+	float:right;
+	width:108px;
+	text-align:right
+}
+#app_list .app_info {
+	border-bottom:solid 1px #c6e3f3;
+	padding:15px 0;
+	line-height:20px
+}
+#app_list .app_info .app_img {
+	float:left;
+	width:56px;
+	position:relative;
+	top:4px
+}
+#app_list .app_info .app_img img {
+	width:50px;
+	height:50px;
+	padding:2px;
+	border:solid 1px #949494;
+	background:#fff
+}
+#app_list .app_info .app_img .a_attention {
+	display:block;
+	margin-top:5px;
+	width:56px;
+	height:25px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/bg_bus_db45c01.gif) no-repeat left -50px
+}
+#app_list .app_info h3 {
+	font-size:12px;
+	font-weight:400
+}
+#app_list .app_info h3 strong a {
+	font-size:14px
+}
+.app_info .info_main {
+	margin-left:67px
+}
+.app_info .main {
+	float:right;
+	width:656px
+}
+#app_list .app_info_s1 {
+	border:0;
+	margin-bottom:5px;
+	padding-bottom:0
+}
+#app_list .app_use {
+	color:#777
+}
+#app_list .app_use span {
+	color:#f16d0b
+}
+#app_list .app_menus {
+	float:right;
+	clear:both
+}
+#app_list .app_menus a.a_detailed {
+	float:left;
+	width:76px;
+	height:25px;
+	overflow:hidden;
+	text-indent:-999px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/bg_bus_db45c01.gif) no-repeat left top
+}
+#app_list dl {
+	float:left;
+	width:460px
+}
+#app_list dl dt {
+	float:left;
+	color:#777
+}
+#app_list dl dd {
+	float:left;
+	margin-right:15px;
+	white-space:nowrap
+}
+.stars {
+	width:60px;
+	height:11px;
+	display:inline-block;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/score_star_0a6f52c.gif) left -11px repeat-x;
+	position:relative;
+	overflow:hidden
+}
+.big_rate_up {
+	display:block;
+	width:0;
+	height:11px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/score_star_0a6f52c.gif) repeat-x left top;
+	overflow:hidden
+}
+.stars b {
+	display:block;
+	width:12px;
+	float:left;
+	height:11px;
+	position:relative;
+	z-index:1;
+	cursor:pointer;
+	overflow:hidden
+}
+.search-statistics {
+	border-bottom:1px solid #C6E3F3;
+	padding-bottom:5px
+}
+.no-results {
+	border-bottom:1px dashed #ccc;
+	padding-bottom:10px;
+	margin:10px 0;
+	color:#999
+}
+#app_list .app_info .creator {
+	float:left;
+	width:400px
+}
+#app_list .app_info .description {
+	clear:both
+}
+.imm-try-app {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/bg_bus_db45c01.gif) no-repeat 0 -100px;
+	width:80px;
+	height:26px;
+	font-size:0;
+	line-height:0;
+	float:left
+}
+#related_app_block li .app-block-right {
+	float:left;
+	display:inline;
+	width:112px
+}
+#related_app_block .app-title,#related_app_block .app-weibo {
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	height:20px;
+	line-height:20px;
+	width:112px
+}
+#searchRank {
+	padding-top:15px
+}
+#searchRank .logoArea {
+	height:45px;
+	overflow:hidden
+}
+#searchRank .logoArea .logo {
+	float:left;
+	width:115px;
+	height:45px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/search_bg_67c1e7f.gif) no-repeat -293px 0
+}
+#searchRank .titleArea {
+	margin-top:10px;
+	height:33px;
+	line-height:33px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/rank_title_2ae2ec1.png) repeat-x 0 -53px;
+	overflow:hidden
+}
+#searchRank .titleArea h2 {
+	float:left;
+	width:105px;
+	height:33px;
+	color:#fff;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/rank_title_2ae2ec1.png) no-repeat;
+	text-indent:-999em
+}
+#searchRank .rankArea {
+	margin-top:10px;
+	width:1000px;
+	overflow:hidden
+}
+#searchRank .rankArea .rankBox {
+	float:left;
+	width:50%
+}
+#searchRank .rankArea .rankBox h4 {
+	height:32px;
+	background:url(http://static.tianyaui.com/global/search/web/static/images/bg_1_b62907e.png) repeat-x left bottom;
+	font:700 14px/32px "宋体";
+	padding-left:10px
+}
+#searchRank .rankArea .rankBox table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	font-size:12px
+}
+.rankBox table tr {
+	height:30px;
+	line-height:30px
+}
+.rankBox table th,.rankBox table td {
+	padding:0 0 0 10px;
+	border-bottom:1px solid #e4e4e4
+}
+.rankBox table th {
+	color:#666
+}
+.rankBox table th.rankNum {
+	width:45px
+}
+.rankBox table td.rankNum {
+	color:#a8a8a8;
+	font:700 14px Arial,Helvetica,sans-serif
+}

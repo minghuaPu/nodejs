@@ -1,0 +1,128 @@
+extends layout
+block content
+    div.top
+        a(href="/")  <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> 筋斗云文章&nbsp;&nbsp;&nbsp;&nbsp;
+        a(href="/wx") <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>  筋斗云微信&nbsp;&nbsp;&nbsp;&nbsp;
+        a(href="/new") <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>  筋斗云搜索&nbsp;&nbsp;&nbsp;&nbsp;
+      
+
+    - if (tab!=9999 && tab!='')
+        h1 筋斗云搜索
+        h5 翻个筋斗就能享受来自：今日头条、微信、百度、搜狗、神马等平台的云搜索服务
+        form.jdyss_f
+            input(name="tab" class="input" placeholder="#{tab}")
+            input(type="submit" id="sswm" class="btn btn-primary"  style="display:none")
+            a(class="btn btn-primary" onclick="javascript:$('#sswm').click();") <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 翻个筋斗，搜索一下
+    - else if (tab==9999)
+        h1  筋斗云微信
+        h5 翻个筋斗就能享受来自微信的财经、旅行、职场、美食等分类下的云文章服务
+        a(class="btn btn-primary" href="/wx/?category=#{category}") <span class="glyphicon glyphicon-retweet" aria-hidden="true"></span> 翻个筋斗，更换分类
+
+    - else
+        h1  筋斗云文章
+        h5 翻个筋斗就能享受来自：微信、今日头条、神马新闻等平台的云文章服务
+        a(class="btn btn-primary" href="/?page=refresh") <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> 翻个筋斗，更新云文章
+    
+    div
+        ul.sync-pagination.pagination-sm
+        div.searchListOne
+            ul
+
+                each item,i in items
+                    li
+                        h3
+                            - if (item.image!=undefined)
+                                img(src="#{item.image}" style="width:70px")
+                            span #{item.type}：
+                            a(href="#{item.link}"  target="_blank")  #{item.title} 
+                       
+
+    ul(class="sync-pagination pagination-sm button_mm moreinfo") <span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true"></span> <span id="jzgd"> 加载更多</span>
+    ul(class="sync-pagination pagination-sm button_mm downpage") <span class="glyphicon glyphicon-send" aria-hidden="true"></span> 下一页
+
+    script.
+        var sdf=0;
+        var pagev=#{page};
+        var category=#{category};
+      
+          $(window).scroll(function () {
+            var scrollTop = $(this).scrollTop();
+            var scrollHeight = $(document).height();
+            var windowHeight = $(this).height();
+            if (scrollTop + windowHeight == scrollHeight) {
+              
+                 $('.moreinfo').click();
+            }
+        })
+
+            $('.downpage').click(function  () {
+                if(category>-1){
+                    location.href='/wx?category='+(#{category}-1)+'&page='+(pagev+1);  
+                }else{
+                    location.href='/new?tab=#{tab}&page='+(pagev+1);  
+                }
+
+            });
+        $('.huidaodd').click(function(){
+        $(document).scrollTop(0);
+        })    
+         
+
+
+        var sdfsdf;
+        var more_num=1;
+        var fy=1;
+        var ttxs=3;
+        //点击下一页的链接(即那个a标签)   
+        $('.moreinfo').click(function() {
+             
+            $('#jzgd').text("正在努力加载"); //给a标签加载一个loading的class属性，可以用来添加一些加载效果  
+                if(category==-2){
+                    sdfsdf='/?more_num='+more_num+'&page='+fy;
+                }else if(category==-1){
+                    sdfsdf='/new?tab=#{tab}&more_num='+more_num+'&page='+fy;
+                }else{
+                    sdfsdf='/wx?category='+(#{category}-1)+'&page='+fy;
+                }
+                $.ajax({ //发起ajax请求   
+                    url: sdfsdf, //请求的地址就是下一页的链接   
+                    type: "get", //请求类型是get     
+                    error: function(request) {
+                    //如果发生错误怎么处理   
+                    },
+                    success: function(data) { //请求成功      
+                        var data_rtn = jQuery(data).find(".searchListOne ul li"); 
+                        $('.searchListOne ul').append(data_rtn.fadeIn(500)); //将数据加载加进posts-loop的标签中。
+                        if(category!=-2){
+                            if(more_num==1){
+                                more_num++;
+                               fy++;
+
+                            }else{
+                                more_num=1;
+
+                            }
+                              
+                        } else if(category!=-2){
+                            
+                               fy++;
+                              
+                        }else{
+
+                            if(more_num<ttxs){
+                                more_num++;
+                            }else{
+                                ttxs=2;
+                                more_num=1;
+                                fy++;
+                            }
+                        }
+                           $('#jzgd').text('加载更多');
+
+                    }
+                });
+           
+        });
+
+   
+  
